@@ -1,0 +1,2 @@
+execute time is : 119ms
+the minimum and maximum are :0 99993
