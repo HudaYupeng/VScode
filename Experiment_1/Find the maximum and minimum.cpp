@@ -75,13 +75,12 @@ int main()
     int k=5,t;
     for (int i = 0; i < 3; i++)
     {
-        file.open(files[i], ios::in);//读文件
+        file.open(files[i], ios::in);//读取文件
         read(file, k, Array);
         file.close();
-
         cout<<"number of test data is :" << k <<endl;
+        file.open(files[i+3], ios::out);//写入文件
         t=clock();
-        file.open(files[i+3], ios::out);//写文件
         solution_2(file,Array,0,k-1);
         t=clock()-t;
         cout << "execute time is : " << t << "ms" << endl<<

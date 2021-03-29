@@ -17,7 +17,7 @@ void print(fstream& outfile, int n, int A[])//将数据载入文件
 int main()
 {
     srand((int)time(NULL));
-    string files[3] = { "5.txt","0.5k.txt","50k.txt"};
+    string files[3] = { "5.txt","500.txt","50k.txt"};
     fstream file;//产生测试文件
     int k = 5;//最小的测试数据为5
     for (int i = 0; i < 3; i++)//装载3个test文件

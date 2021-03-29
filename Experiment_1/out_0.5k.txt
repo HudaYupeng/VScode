@@ -1,2 +1,2 @@
 execute time is : 0ms
-the minimum and maximum are :0 98718
+the minimum and maximum are :0 805
